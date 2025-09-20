@@ -1,2 +1,1 @@
-# single-ecommerce-page
-I'm newbie
+# Ecommerce-product-page

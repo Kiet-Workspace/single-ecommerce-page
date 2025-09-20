@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce product page</title>
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header>
+        <img class="icon-menu" src="./assets/images/icon-menu.svg" alt="">
+        <img class="logo-page" src="./assets/images/logo.svg" alt="">
+        <nav>
+            <div class="bgr-nav"></div>
+            <div class="nav-main">
+                <div class="icon-close">
+                    <img src="./assets/images/icon-close.svg" alt="">
+                </div>
+                <ul>
+                    <li>Colections</li>
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </nav>
+        <div class="cart">
+            <img class="icon-cart" src="./assets/images/icon-cart.svg" alt="">
+            <p class="cart-icon-number"></p>
+            <div class="user-cart">
+                <div class="cart-header">
+                    <h3>Cart</h3>
+                </div>            
+                <div class="cart-order">
+                    <p class="empty-cart">Your cart is empty.</p>
+                    <div class="user-order">
+                        <img class="cart-thumnail" src="./assets/images/image-product-1-thumbnail.jpg" alt="">
+                        <div class="order-content">
+                            <h3>Fall Limited Edition Sneakers</h3>
+                            <div class="order-price">
+                                <p class="number-order">$125.00 x 1</p>
+                                <p class="total-price">$375.00</p>
+                            </div>                       
+                        </div>                    
+                        <img class="icon-delete" src="./assets/images/icon-delete.svg" alt="">
+                    </div>
+                    <button class="btn-checkout">
+                        Checkout
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="user-avatar-tag">
+            <img class="user-avatar" src="./assets/images/image-avatar.png" alt="">
+        </div>
+
+        <!-- Cart section -->
+        <!-- <div class="cart-outline"></div> -->
+       
+    </header>
+
+    <!-- main -->
+    <main>
+
+        <!-- carousel -->
+        <div class="product-image">
+            <div class="product-image-bgr">
+
+            </div>
+            <div class="product-image-content">
+                <div class="close-icon-dk"><img src="./assets/images/icon-close.svg" alt=""></div>
+                <div class="open-carousel">
+                    <div class="product-carousel">
+                        <img src="./assets/images/image-product-1.jpg" alt="">
+                        <img src="./assets/images/image-product-2.jpg" alt="">
+                        <img src="./assets/images/image-product-3.jpg" alt="">
+                        <img src="./assets/images/image-product-4.jpg" alt="">
+                    </div>
+                    <button class="pic-nav prev-btn">
+                        <img src="./assets/images/icon-previous.svg" alt="">
+                    </button>
+                    <button class="pic-nav next-btn">
+                        <img src="./assets/images/icon-next.svg" alt="">
+                    </button>
+                </div>
+                
+                <div class="open-pic-thumbnail">
+                    <ul>
+                        <li><img class="thumb-open-1" src="./assets/images/image-product-1-thumbnail.jpg" alt=""></li>
+                        <li><img class="thumb-open-2" src="./assets/images/image-product-2-thumbnail.jpg" alt=""></li>
+                        <li><img class="thumb-open-3" src="./assets/images/image-product-3-thumbnail.jpg" alt=""></li>
+                        <li><img class="thumb-open-4" src="./assets/images/image-product-4-thumbnail.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Main pic Desktop -->
+
+        <div class="main-pic-dk">
+            <div class="main-pic">
+                <img class="main-pic-show" src="./assets/images/image-product-1.jpg" alt="">
+            </div>
+            <div class="main-pic-thumbnail">
+                <ul>
+                    <li><img class="thumb-pic-1" src="./assets/images/image-product-1-thumbnail.jpg" alt=""></li>
+                    <li><img class="thumb-pic-2" src="./assets/images/image-product-2-thumbnail.jpg" alt=""></li>
+                    <li><img class="thumb-pic-3" src="./assets/images/image-product-3-thumbnail.jpg" alt=""></li>
+                    <li><img class="thumb-pic-4" src="./assets/images/image-product-4-thumbnail.jpg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- infor -->
+        <div class="product-section">
+            <div class="product-info">
+                <h2>SNEAKER COMPANY</h2>
+                <h1>Fall Limited Edition Sneakers</h1>
+                <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+            </div>
+            <div class="product-price">
+                <h2 class="price">$125.00</h2>
+                <div class="discount">
+                    <p>50%</p>
+                </div>
+                <h3 class="sub-price">$250.00</h3>                
+            </div>
+            <!-- add and purchase -->
+            <div class="add-purchase-btn">
+                <div class="purchase-product">
+                    <img class="purchase-btn-minus" src="./assets/images/icon-minus.svg" alt="">
+                    <p class="num-of-purchase">0</p>
+                    <img class="purchase-btn-plus" src="./assets/images/icon-plus.svg" alt="">
+                </div>
+                <button class="add-to-cart">
+                    <svg width="22" height="20" xmlns="http://www.w3.org/2000/svg"><path d="M20.925 3.641H3.863L3.61.816A.896.896 0 0 0 2.717 0H.897a.896.896 0 1 0 0 1.792h1l1.031 11.483c.073.828.52 1.726 1.291 2.336C2.83 17.385 4.099 20 6.359 20c1.875 0 3.197-1.87 2.554-3.642h4.905c-.642 1.77.677 3.642 2.555 3.642a2.72 2.72 0 0 0 2.717-2.717 2.72 2.72 0 0 0-2.717-2.717H6.365c-.681 0-1.274-.41-1.53-1.009l14.321-.842a.896.896 0 0 0 .817-.677l1.821-7.283a.897.897 0 0 0-.87-1.114ZM6.358 18.208a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm10.015 0a.926.926 0 0 1 0-1.85.926.926 0 0 1 0 1.85Zm2.021-7.243-13.8.81-.57-6.341h15.753l-1.383 5.53Z" fill-rule="nonzero"/></svg>
+                    Add to cart
+                </button>
+            </div>
+            
+        </div>
+        
+    </main>
+    
+
+
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
